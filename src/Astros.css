@@ -1,6 +1,4 @@
-/* Astros.css */
 
-/* Contenedor principal para las tarjetas */
 .astros-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -8,7 +6,7 @@
     padding: 20px;
 }
 
-/* Estilos para cada tarjeta de astronauta */
+
 .astro-card {
     background-color: #1e2a38;
     color: #ecf0f1;
@@ -24,14 +22,13 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
-/* Nombre del astronauta */
 .astro-name {
     font-size: 1.2rem;
     font-weight: bold;
     margin: 10px 0;
 }
 
-/* Nave en la que está el astronauta */
+
 .astro-craft {
     font-size: 1rem;
     color: #bdc3c7;
