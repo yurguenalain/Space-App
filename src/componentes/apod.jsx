@@ -6,7 +6,7 @@ import "./APOD.css";
 function APOD() {
     const [photoData, setPhotoData] = useState(null);
     const API_KEY = "TU_CLAVE_API"; // Reemplaza con tu clave de API de NASA
-    const API_URL = `https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`;
+    const API_URL = `https://api.nasa.gov/planetary/apod?api_key=TR4GHeIVyJLmUPWlotkQKIMDBdqhmNlgVxQqadm7`;
 
     useEffect(() => {
         const fetchPhoto = async () => {
